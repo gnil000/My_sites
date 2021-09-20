@@ -5,24 +5,25 @@ body{
 }
 
 .Header{
-    position: relative;
+   
     background: url(backim.png) repeat-x center;
-    text-align: center;
     height: 200px;
-    width: 100vw;
+    width: 100%;
+    padding: 10px;
 }
 
 .Header h1{
     position: absolute;
-    width: 99%;
-    margin: auto;
-    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
 }
 
 .Header img{
     position: absolute;
-    left: 300px;
-    top: 25px;
+    left: 200px;
+    margin: 10px;
+    top: auto;
 }
 
 nav{
@@ -83,11 +84,11 @@ background-color: #bebebe;
 }
 
 .fot{
-    position: relative;
+  
     background: url(backim.png) repeat-x center;
-    top: 100px;
     height: 200px;
-    width: 100vw;
+    width: 100%;
+    padding: 10px;
 }
 
 .fot p{
