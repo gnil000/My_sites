@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="style.css">
+<title> Kusochkova_Elena </title>
+</head> 
 
+<body>
+<div>
+    <header class="Header">
+        <img src="Yu5t.gif" alt="лапка" height="150" >
+        <div class="text_h">Второе задание</div>
+    </header>
+</div>
+    <nav>
+        <a href="#up">Гиперссылки</a> <a href="#tabi">Таблица</a> <a href="#down">Форма</a> 
+    </nav>
+
+    <!--ГИПЕРССЫЛКИ-->
+   
+    
+    <div class="list">
+       <h2 id="up">НУМЕРОВАННЫЙ СПИСОК ГИПЕРССЫЛОК</h2>
+<ol>
+    <li><a href="http://example.com">абсолютную гиперссылку на главную страницу сайта example.com</a></li>
+    <li><a href="https://example.com">абсолютную на главную сайта example.com в протоколе https</a></li>
+    <li><a href="ftp://what.com/cat/document.txt">ссылку на файл на сервере FTP без авторизации</a></li>
+    <li><a href="ftp://login:password@what.com/cat/document2.txt">ссылку на файл на сервере FTP с авторизацией</a></li>
+    <li><a href="http://maybe.com#something">ссылку на фрагмент страницы некоторого сайта</a></li>
+    <li><a href="#up">ссылку на фрагмент текущей страницы</a></li>
+    <li><a href="http://maybe.com?parametr=numone&parametr2=numtwo">ссылку с двумя параметрами в URL</a></li>
+    <li><h2>Список ссылок основной навигации сайта</h2>
+        <ul>
+        <li><a href="#up" title="ссылка на верх страницы">все, кто был со мной внизу, держитесь, мы взлетаем</a></li> 
+        <li><a href="#down" title="ссылка к форме">форма</a></li>
+        </ul>
+        </li>
+    <li><a>ссылка без href</a></li>
+    <li><a href="">пустая ссылка</a></li>
+    <li><a href="http://example.com" rel="nofollow">сылку, по которой запрещен переход поисковикам</a></li>
+    <li><a href="http://example.com" rel="noindex">не индексируется</a></li>
+    <li><p>контекстная ссылка в тексте<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B7%D0%B0%D1%86" target="_blank"> абзаца</a></p></li>
+    <li><a href="https://www.kinopoisk.ru/series/95323/" target="_blank"><img class="imagine" src="asukaao.jpg" alt="eva"></a></li>
+    <li><img class="imagine" src="eva02.jpg" usemap="#evach" alt="navig"> 
+        <map name="evach"><area shape="circle" coords="10,10,5" alt="ev" href="https://znyworldwide.com/">
+        <area shape="rect" coords="20,20,40,40"  alt="hoff" href="https://www.youtube.com/watch?v=BMdcG7m0gCo&list=RDBMdcG7m0gCo&start_radio=1&ab_channel=INSTASAMKA">
+        </map>
+    </li>
+    <li><a href="mmm">относительную на страницу в текущем каталоге</a></li>
+        <li><a href="./about/mem">относительную на страницу в каталоге about</a></li>
+        <li><a href="../">уровнем выше</a></li>
+        <li><a href="../..">двумя уровнями выше</a></li>
+    <li><a href="/">сокращённая на главную</a></li>
+        <li><a href="/mya/mmm">сокращённая на внутреннюю</a></li>
+  </ol>
+  </div>
+
+<!-- ТАБЛИЦА -->
+  <table class="tab" id="tabi">
+    <tr class="odd"><th colspan="2"> КРИТЕРИИ </th> <th> Евангелион </th> <th> Милый во франксе </th> </tr>
+    <tr>
+        <th colspan="2">Старый</th><td>да</td><td>нет</td>
+    </tr>
+    <tr class="odd">
+    <th colspan="2" align="center">Атмосферная рисовка</th> <td>да</td><td>нет</td>
+    </tr>
+    <tr>
+        <th colspan="2">Первый в своём роде</th> <td>да</td><td>нет</td>
+    </tr>
+    <tr class="odd">
+        <th colspan="2">Начиная с середины становится очень больно</th> <td>да</td><td>нет</td>
+    </tr>
+    <tr>
+        <th colspan="2">Фансервис</th><td>нет</td><td>да</td>
+    </tr>
+    </table>
+
+
+    <!--ФОРМА-->
+    <div class=list>
+<h2 id="down">ФОРМА</h2>
+        <form action="/" method="POST">
+        
+        <label> 
+        Введите имя:
+        <input name="field-name-1"  placeholder="введите имя" value="" />
+        </label>
+        <br>
+<label>
+        Введите электронную почту:
+        <input name="field-email" placeholder="@mail" value="" type="email"/>
+        </label>
+        <br>
+<label>
+        Ваша дата рождения: 
+        <br>
+        <input name="field-date" value="" type="date"/>
+        </label>
+        
+        <br>
+        <label> <input type="radio" checked="checked" name="sex" value="man" /> Мужской пол </label>
+        <label> <input type="radio" name="sex" value="woman"/> Женский пол </label>
+        
+        <p>Количество конечностей</p>
+        <label> <input type="radio" checked="checked" name="numoflimb" value="1"/> 1 </label>
+        <label> <input type="radio" name="numoflimb" value="2" /> 2 </label>
+        <label> <input type="radio" name="numoflimb" value="3"/> 3 </label>
+        <label> <input type="radio" name="numoflimb" value="4"/> 4 </label>
+        <br>
+        
+        <label> <select name="field-name-4[]" multiple="multiple"> 
+        <option value="1"> бессмертие </option>
+        <option value="2" selected="selected"> прохождение сквозь стены </option>
+        <option value="3" selected="selected"> левитация </option>
+        </select>
+        </label>
+        <br>
+        
+       <label>
+        <textarea placeholder="биография" name="field-name-2" ></textarea>
+        </label>
+        <br>
+        
+        <label> 
+        <input type="checkbox" checked="checked" name="kitti"/> С контрактом ознакомлен(а)
+        </label>
+        <br>
+        <input type="submit" value="send"/>
+    </form>
+    </div>
+        <br>
+    <footer class="fot">
+        <p>&#169;Кусочкова Елена Борисовна 2021</p>
+    </footer>
+        
+</body>
+</html>
