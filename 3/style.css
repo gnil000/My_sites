@@ -1,0 +1,164 @@
+ body{
+        margin: 0;
+        overflow-x: hidden;
+        background-color: rgb(228 228 228);
+        font-family: system-ui;
+    }
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+nav a:hover{
+    color: darkred;
+}
+
+.Header{
+    height: 150px;
+    background: url(backim2.png) repeat-x center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_h{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-right: 5%;
+}
+
+nav{
+    background: rgb(208 208 208);
+    display: flex;
+    flex-direction: column;
+}
+
+nav a{
+    margin-left: 5%;
+    color: rgb(255, 149, 211);
+    text-decoration-line: none;
+}
+
+.fot{
+    background: url(backim2.png) repeat-x center;
+}
+
+/*таблица*/
+.tab{
+    border-spacing: 5px;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    border: 1px snow;
+    border-collapse: separate;
+}
+
+.tab td{
+    padding: 1%;
+    text-align: center;
+}
+
+.odd{
+    background-color: #bebebe;
+}
+
+/*таблица конец*/
+
+.list label{
+    margin-left: 5%;
+}
+
+.list input{
+    margin-left: 5%;
+}
+
+.p_form{
+    margin-left: 5%;
+}
+
+.imagine{
+    width: 100%;
+}
+ 
+/*для остального*/
+/*345px*/
+
+/*500px*/
+
+@media screen and (max-width:350px) {
+    .contain{
+        width: 350px;
+    }
+   
+}
+
+@media screen and (min-width:500px){
+
+.Header{
+    display: flex;
+    justify-content: center;
+}
+
+.text_h{
+    font-weight: bolder;
+    font-size: xxx-large;
+    position: relative;
+    text-align: center;
+}
+
+.Header img{
+    float: left;
+    right: 70%;
+    margin: 1%;
+    top: auto;
+}
+
+nav{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+nav a{
+    margin-left: 0;
+    line-height: 200%;
+    text-decoration: none;
+    font-size: 150%;
+    display: inline-block;
+    text-align: center;
+    color: rgb(255 92 182);
+}
+
+.list{
+    width: 500px;
+    margin: auto;
+}
+
+tr:hover td{
+background-color: rgb(240, 198, 255);
+}
+
+.fot{
+    background: url(backim2.png) repeat-x center;
+    height: 200px;
+    width: 100%;
+    padding: 1%;
+}
+
+.fot p{
+    position: relative;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+}
+}
