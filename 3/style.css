@@ -34,12 +34,15 @@ nav a:hover{
 }
 
 nav{
+    height: 150px;
+    justify-content: space-around;
     background: rgb(208 208 208);
     display: flex;
     flex-direction: column;
 }
 
 nav a{
+    font-size: x-large;
     margin-left: 5%;
     color: rgb(255, 149, 211);
     text-decoration-line: none;
@@ -91,11 +94,16 @@ nav a{
 
 /*500px*/
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:355px) {
     .contain{
-        width: 350px;
+        width: 355px;
     }
-   
+    nav{
+        width: 355px;
+    }
+    .Header{
+        width: 355px;
+    }
 }
 
 @media screen and (min-width:500px){
@@ -120,6 +128,7 @@ nav a{
 }
 
 nav{
+    height: auto;
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
