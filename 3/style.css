@@ -94,16 +94,13 @@ nav a{
 
 /*500px*/
 
-@media screen and (max-width:355px) {
+@media screen and (max-width:350px) {
     .contain{
-        width: 355px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-    nav{
-        width: 355px;
-    }
-    .Header{
-        width: 355px;
-    }
+    
 }
 
 @media screen and (min-width:500px){
