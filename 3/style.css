@@ -19,6 +19,17 @@ nav a:hover{
 }
 
 .Header{
+    order: 1;
+    height: 150px;
+    background: url(backim2.png) repeat-x center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fot{
+    order: 6;
     height: 150px;
     background: url(backim2.png) repeat-x center;
     display: flex;
@@ -34,6 +45,7 @@ nav a:hover{
 }
 
 nav{
+    order: 2;
     height: 250px;
     justify-content: space-around;
     background: rgb(208 208 208);
@@ -48,12 +60,17 @@ nav a{
     text-decoration-line: none;
 }
 
-.fot{
-    background: url(backim2.png) repeat-x center;
+.list{
+    order: 3;
+}
+
+.formm{
+    order: 4;
 }
 
 /*таблица*/
 .tab{
+    order: 5;
     border-spacing: 5px;
     width: 65%;
     margin: auto;
@@ -73,11 +90,11 @@ nav a{
 
 /*таблица конец*/
 
-.list label{
+.formm label{
     margin-left: 5%;
 }
 
-.list input{
+.formm input{
     margin-left: 5%;
 }
 
@@ -106,6 +123,7 @@ nav a{
 @media screen and (min-width:500px){
 
 .Header{
+    order: 0;
     display: flex;
     justify-content: center;
 }
@@ -125,6 +143,7 @@ nav a{
 }
 
 nav{
+    order: 0;
     height: auto;
     justify-content: space-evenly;
     display: flex;
@@ -146,8 +165,19 @@ nav a{
 }
 
 .list{
+    order: 0;
     width: 500px;
     margin: auto;
+}
+
+.formm{
+    order: 0;
+    width: 500px;
+    margin: auto;
+}
+
+.tab{
+    order: 0;
 }
 
 tr:hover td{
@@ -155,16 +185,11 @@ background-color: rgb(240, 198, 255);
 }
 
 .fot{
-    background: url(backim2.png) repeat-x center;
-    height: 200px;
-    width: 100%;
-    padding: 1%;
+    order: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.fot p{
-    position: relative;
-    width: 100%;
-    top: 35%;
-    text-align: center;
-}
+
+
 }
