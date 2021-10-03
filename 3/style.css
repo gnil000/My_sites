@@ -41,6 +41,7 @@ nav a:hover{
 .text_h{
     font-weight: bolder;
     font-size: larger;
+    margin-right: 5%;
 }
 
 nav{
@@ -110,7 +111,7 @@ nav a{
 
 /*500px*/
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:375px) {
     .contain{
         display: flex;
         flex-direction: column;
@@ -120,10 +121,11 @@ nav a{
 }
 
 @media screen and (min-width:500px){
- .imagine{
- width:100%
- }
- 
+
+.imagine{
+    width: 100%;
+}
+
 .Header{
     order: 0;
     display: flex;
