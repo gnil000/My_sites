@@ -34,7 +34,7 @@ nav a:hover{
 }
 
 nav{
-    height: 150px;
+    height: 250px;
     justify-content: space-around;
     background: rgb(208 208 208);
     display: flex;
@@ -42,7 +42,7 @@ nav{
 }
 
 nav a{
-    font-size: x-large;
+    font-size: xx-large;
     margin-left: 5%;
     color: rgb(255, 149, 211);
     text-decoration-line: none;
