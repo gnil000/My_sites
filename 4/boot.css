@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+.container {
+  background-color: white;
+}
+
+.imagine {
+  width: 70%;
+}
+
+.img_logo {
+  justify-content: center;
+}
+
+.nav {
+  background-color: rgb(20, 20, 20);
+}
+
+@media (min-width: 576px) {
+  .nav {
+    height: 60px;
+    width: 92%;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+}
+
+ul_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tex {
+  font-size: xx-large;
+  align-content: center;
+  align-items: center;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.bibs {
+  background-color: rgb(30, 30, 30);
+}
+
+.table {
+  width: 100%;
+}
