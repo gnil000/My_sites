@@ -6,6 +6,18 @@ body {
   background-color: white;
 }
 
+a {
+  color: #d4e5ff;
+}
+
+h2 {
+  color: white;
+}
+
+ol {
+  color: white;
+}
+
 .imagine {
   width: 70%;
 }
@@ -27,14 +39,8 @@ body {
   }
 }
 
-ul_1 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 .tex {
+  color: white;
   font-size: xx-large;
   align-content: center;
   align-items: center;
@@ -48,6 +54,35 @@ ul_1 {
   background-color: rgb(30, 30, 30);
 }
 
+.tab_form {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.tab_di {
+  overflow: auto;
+}
+
 .table {
-  width: 100%;
+  max-width: 100%;
+}
+
+.list {
+  background-color: black;
+}
+
+footer {
+  height: 150px;
+  background-color: black;
+}
+
+.tex_fot {
+  color: white;
+  font-size: x-large;
+}
+
+.tex_form {
+  color: white;
 }

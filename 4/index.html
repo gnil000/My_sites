@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" initial-scale="1" />
-    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="boot.css" />
     <title>Kusochkova_Elena</title>
   </head>
@@ -15,9 +15,7 @@
       <div class="img_logo d-flex col-6">
         <img src="Yu5t.gif" alt="лапка" height="150" />
       </div>
-      <div class="tex d-flex col-6 text-center" style="color: floralwhite">
-        Мне больно
-      </div>
+      <div class="tex d-flex col-6 text-center">Мне больно</div>
     </div>
 
     <!--НАВИГАЦИЯ-->
@@ -127,53 +125,56 @@
     </div>
 
     <!-- ТАБЛИЦА -->
-    <div class="container">
-      <table class="table table-hover" id="tabi">
-        <tr class="odd">
-          <th rowspan="2">КРИТЕРИИ</th>
-          <th colspan="2">Евангелион</th>
-          <th colspan="2">Милый во франксе</th>
-        </tr>
-        <tr>
-          <td>у меня</td>
-          <td>фантазия</td>
-          <td>кончилась</td>
-          <td>аоао</td>
-        </tr>
-        <tr class="odd">
-          <td>Атмосферная рисовка</td>
-          <td>да</td>
-          <td>а</td>
-          <td>нет</td>
-          <td>о</td>
-        </tr>
-        <tr>
-          <td>Первый в своём роде</td>
-          <td>да</td>
-          <td>а</td>
-          <td>нет</td>
-          <td>о</td>
-        </tr>
-        <tr class="odd">
-          <td>Начиная с середины становится очень больно</td>
-          <td>да</td>
-          <td>а</td>
-          <td>нет</td>
-          <td>о</td>
-        </tr>
-        <tr>
-          <td>Фансервис</td>
-          <td>нет</td>
-          <td>о</td>
-          <td>да</td>
-          <td>а</td>
-        </tr>
-      </table>
-    </div>
-    <!--ФОРМА-->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 order-1">
+
+    <div class="tab_form container flex-column">
+      <div class="tab_di mt-3 order-sm-first">
+        <table class="table table-striped table-dark" id="tabi">
+          <tr class="odd">
+            <th rowspan="2">КРИТЕРИИ</th>
+            <th colspan="2">Евангелион</th>
+            <th colspan="2">Милый во франксе</th>
+          </tr>
+          <tr>
+            <td>у меня</td>
+            <td>фантазия</td>
+            <td>кончилась</td>
+            <td>аоао</td>
+          </tr>
+          <tr class="odd">
+            <td>Атмосферная рисовка</td>
+            <td>да</td>
+            <td>а</td>
+            <td>нет</td>
+            <td>о</td>
+          </tr>
+          <tr>
+            <td>Первый в своём роде</td>
+            <td>да</td>
+            <td>а</td>
+            <td>нет</td>
+            <td>о</td>
+          </tr>
+          <tr class="odd">
+            <td>Начиная с середины становится очень больно</td>
+            <td>да</td>
+            <td>а</td>
+            <td>нет</td>
+            <td>о</td>
+          </tr>
+          <tr>
+            <td>Фансервис</td>
+            <td>нет</td>
+            <td>о</td>
+            <td>да</td>
+            <td>а</td>
+          </tr>
+        </table>
+      </div>
+
+      <!--ФОРМА-->
+
+      <div class="order-first order-sm-12">
+        <div class="col-sm-12">
           <h2 id="down">ФОРМА</h2>
           <form action="/" method="POST">
             <label>
@@ -248,8 +249,8 @@
       </div>
     </div>
 
-    <footer class="fot">
-      <p>&#169;Кусочкова Елена Борисовна 2021</p>
+    <footer class="container-fluid row text-center align-items-center">
+      <div class="tex_fot col">&#169;Кусочкова Елена Борисовна 2021</div>
     </footer>
   </body>
 </html>
