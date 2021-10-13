@@ -55,6 +55,7 @@ ol {
 }
 
 .tab_form {
+  max-width: 960px;
   background-color: black;
   color: white;
   display: flex;
@@ -70,6 +71,7 @@ ol {
 }
 
 .list {
+  max-width: 960px;
   background-color: black;
 }
 
