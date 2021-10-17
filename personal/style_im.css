@@ -36,7 +36,7 @@ body {
   align-items: center;
   border: 1px inset;
   border-color: black;
-  box-shadow: 50px 50px 1000px pink;
+  box-shadow: 50px 50px 100px pink;
 }
 
 .head {
@@ -98,5 +98,6 @@ a {
 @media screen and (min-width: 1000px) {
   .main {
     width: 25%;
+    box-shadow: 50px 50px 1000px pink;
   }
 }
