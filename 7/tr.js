@@ -1,3 +1,4 @@
+window.addEventListener('DOMContentLoaded', function(event){
 $(document).ready(function(){
     $('.slider').slick({
         dots: true,
@@ -15,6 +16,6 @@ $(document).ready(function(){
         mobileFirst: true,
     }); 
 });
-
+});
 
 
