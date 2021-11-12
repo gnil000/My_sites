@@ -1,8 +1,8 @@
 .slider {
   position: relative;
   margin-top: 100px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 1px;
+  padding-right: 1px;
   min-width: 0;
 }
 
